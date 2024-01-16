@@ -4,10 +4,10 @@ import { Text, StyleSheet, View, ScrollView } from 'react-native'
 export default class index extends Component {
     render() {
         return (
-            <View style={{ marginTop: 40, height: '100%'}}>
+            <View style={{ paddingTop: 40, height: '100%'}}>
                 <Text style={[styles.h2]}> 主轴方向 </Text>
                 <ScrollView>
-                    <Text style={[styles.h3]}> flexRow 1:1:1） </Text>
+                    <Text style={[styles.h3]}> flexRow 1:1:1 </Text>
                     <View style={[styles.continue, styles.flexRow]}>
                         <Text style={[styles.itemBase, {flex: 1}]}>刘备</Text>
                         <Text style={[styles.itemBase, {flex: 1}]}>关羽</Text>
